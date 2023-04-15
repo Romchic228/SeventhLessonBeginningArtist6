@@ -195,7 +195,87 @@
                 android:onClick="paintClicked"
                 android:src="@drawable/paint"
                 android:tag="#FF000000" />
+            
+             <LinearLayout
+                           
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
 
+            
+<LinearLayout    
+              
+              android:layout_width="match_parent"       
+              android:layout_height="match_parent"        
+              android:orientation="horizontal">      
+    
+    <ImageButton     
+                 
+                 android:layout_width="@dimen/large_brush"       
+                 android:layout_height="@dimen/large_brush"          
+                 android:layout_margin="2dp"              
+                 android:background="#9944FF"            
+                 android:contentDescription="@string/paint"             
+                 android:onClick="paintClicked"             
+                 android:src="@drawable/paint"             
+                 android:tag="#9944FF" />  
+    
+    <ImageButton     
+                 
+                 android:layout_width="@dimen/large_brush"    
+                 android:layout_height="@dimen/large_brush"        
+                 android:layout_margin="2dp"        
+                 android:background="#884400"         
+                 android:contentDescription="@string/paint"         
+                 android:onClick="paintClicked"           
+                 android:src="@drawable/paint"           
+                 android:tag="#884400" />       
+    <ImageButton     
+                 
+                 android:layout_width="@dimen/large_brush"          
+                 android:layout_height="@dimen/large_brush"         
+                 android:layout_margin="2dp"          
+                 android:background="#484867"            
+                 android:contentDescription="@string/paint"          
+                 android:onClick="paintClicked"            
+                 android:src="@drawable/paint"            
+                 android:tag="#484867" />         
+    
+    <ImageButton    
+                 
+                 android:layout_width="@dimen/large_brush"          
+                 android:layout_height="@dimen/large_brush"           
+                 android:layout_margin="2dp"          
+                 android:background="#00ffff"         
+                 android:contentDescription="@string/paint"        
+                 android:onClick="paintClicked"           
+                 android:src="@drawable/paint"            
+                 android:tag="#00ffff" />         
+    
+    <ImageButton            
+                 android:layout_width="@dimen/large_brush"        
+                 android:layout_height="@dimen/large_brush"          
+                 android:layout_margin="2dp"          
+                 android:background="#CC563C"         
+                 android:contentDescription="@string/paint"         
+                 android:onClick="paintClicked"     
+                 android:src="@drawable/paint"           
+                 android:tag="#CC563C" />        
+    
+    <ImageButton      
+                 
+                 android:layout_width="@dimen/large_brush"           
+                 android:layout_height="@dimen/large_brush"          
+                 android:layout_margin="2dp"            
+                 android:background="#003366"           
+                 android:contentDescription="@string/paint"    
+                 android:onClick="paintClicked"             
+                 android:src="@drawable/paint"               
+                 android:tag="#003366" />     
+            
+           
         </LinearLayout>
+            
     </LinearLayout>
+        
 </LinearLayout>
